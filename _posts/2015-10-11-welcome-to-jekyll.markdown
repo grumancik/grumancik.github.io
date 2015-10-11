@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  HI MOM
+title:  Hello, World
 date:   2015-10-11 18:20:14
 categories: jekyll update
 ---
