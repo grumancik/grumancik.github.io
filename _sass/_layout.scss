@@ -24,8 +24,13 @@
         color: $grey-color-dark;
     }
 
+    &:hover {
+        text-decoration: none;
+    }
+
     &.landing {
       float: none;
+      line-height: 145px;
     }
 }
 
