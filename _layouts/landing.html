@@ -37,14 +37,44 @@
     </header>
 
 
-    <div class="page-content">
+    <div class="page-content landing">
       <div class="wrapper">
         {{ content }}
         OWWEEE
       </div>
     </div>
 
-    {% include footer.html %}
+    <footer class="site-footer landing">
+
+      <div class="wrapper">
+
+        <div class="footer-col-wrapper">
+          <div class="footer-col  footer-col-1">
+            <ul class="contact-list landing">
+              <li><a href="mailto:{{ site.email }}">Send me a note!</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col  footer-col-2">
+            <ul class="social-media-list">
+              <li>
+                <a href="https://instagram.com/{{ site.instagram_username }}">
+                  <span class="icon-instagram">
+                    <img src="/images/icons/instagram.png" width="16" alt=""/>
+                  </span>
+
+                  <span class="username">{{ site.instagram_username }}</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col  footer-col-3">
+            <p class="text">{{ site.description }}</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
   </body>
 
