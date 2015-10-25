@@ -16,10 +16,16 @@
     float: left;
     color: #EDBB4E !important;
     font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    font-size: 145px;
 
     &,
     &:visited {
         color: $grey-color-dark;
+    }
+
+    &.landing {
+      float: none;
     }
 }
 
