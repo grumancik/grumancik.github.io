@@ -1,6 +1,10 @@
 /**
  * Reset some basic elements
  */
+html {
+  height: 100%;
+}
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -14,6 +18,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
+    height: 100%;
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
