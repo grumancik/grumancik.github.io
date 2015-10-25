@@ -21,6 +21,12 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+
+    &.main {
+        background-image: url(/images/oregoncoast.jpg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
 }
 
 
