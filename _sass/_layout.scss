@@ -8,16 +8,29 @@
     position: relative;
 }
 
+.wrapper-box {
+  margin: 30% auto 0;
+  width: 60%;
+
+  background-color: #ffffff;
+}
+
+.genny-circle {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+}
+
 .site-title {
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    color: #EDBB4E !important;
+    color: #383838 !important;
     font-weight: bold;
-    font-family: 'Amatic SC', cursive;
-    font-size: 145px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
 
     &,
     &:visited {
@@ -30,13 +43,19 @@
 
     &.landing {
       float: none;
-      line-height: 145px;
+      line-height: 120px;
+      text-align: center;
     }
 }
 
 .site-nav {
     float: right;
     line-height: 56px;
+
+    &.landing {
+      float: none;
+      text-align: center;
+    }
 
     .menu-icon {
         display: none;
