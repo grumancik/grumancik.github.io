@@ -16,7 +16,7 @@
 }
 
 .circle-wrapper {
-  padding-top: 25px;
+  padding-top: 55px;
 }
 
 .genny-circle {
@@ -50,7 +50,8 @@
 
     &.landing {
       float: none;
-      line-height: 120px;
+      padding-top: 10px;
+      line-height: 75px;
       text-align: center;
     }
 }
@@ -62,6 +63,9 @@
     &.landing {
       float: none;
       text-align: center;
+      padding-bottom: 12px;
+
+      font-family: 'Roboto', sans-serif;
     }
 
     .menu-icon {
@@ -155,6 +159,22 @@
     margin-left: 0;
 }
 
+.icon-email {
+  height: 20px;
+  width: 20px;
+  float: right;
+  opacity: .5;
+}
+
+.icon-instagram {
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
+  float: right;
+
+  opacity: .5;
+}
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
@@ -215,7 +235,8 @@
     position: relative;
 
     &.landing {
-      margin-bottom: -177px;
+      margin-bottom: -140px;
+      min-height: 50%;
     }
 }
 
