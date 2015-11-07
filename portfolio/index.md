@@ -1,6 +1,4 @@
 ---
-layout: page
+layout: portfolio
 title: Portfolio
 ---
-
-Cool things I've done.
