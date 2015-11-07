@@ -56,6 +56,39 @@
     }
 }
 
+.tri-box-wrapper {
+  width: 920px;
+  height: auto;
+}
+
+.tri-box{
+  height: 228px;
+  width: 228px;
+  float: left;
+
+  background-color: purple;
+
+  &.portrait {
+    background: url(/images/6_18_dantwigs.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  &.photog {
+    background: url(/images/utah.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  &.boxes {
+    margin-right: 18px;
+  }
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
