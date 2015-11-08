@@ -3,4 +3,4 @@ title: About
 layout: page
 ---
 
-More to come.
+![Me!](images/genny1.gif)
