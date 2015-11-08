@@ -29,7 +29,6 @@
 }
 
 .site-title {
-    font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -56,6 +55,12 @@
     }
 }
 
+@include media-query($on-palm) {
+  .site-title {
+    font-size: 20px;
+  }
+}
+
 .tri-box-wrapper {
   width: 920px;
   height: auto;
@@ -69,7 +74,7 @@
   background-color: purple;
 
   &.portrait {
-    background: url(/images/6_18_dantwigs.jpg); 
+    background: url(/images/kaija_cover.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -271,6 +276,14 @@
       margin-bottom: -140px;
       min-height: 50%;
     }
+}
+
+@include media-query($on-palm) {
+  .page-content {
+    &.landing {
+      min-height: 33%;
+    }
+  }
 }
 
 .page-heading {
